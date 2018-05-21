@@ -5,6 +5,7 @@ addons:
   apt:
     packages:
       - expect-dev  # provides unbuffer utility
+      - phonenumbers
       - python-lxml # because pip installation is slow
 
 language: python
